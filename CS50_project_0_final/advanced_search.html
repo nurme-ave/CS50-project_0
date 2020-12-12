@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Advanced Search Page</title>
+</head>
+<body>
+
+    <div class="adv-search-header">
+        <img src="images/googlelogo.png" alt="Google Logo" width="127" height="35">
+        <a href="index.html">Go back</a>
+    </div>
+
+    <div class="adv-search-text">
+        <span>Advanced Search</span> 
+    </div>
+
+    <hr>
+
+    <form action="https://www.google.com/search">
+        
+        <div>
+            <table>
+
+                <tr>
+                    <td><div class="adv-find-pages-text">Find pages with...</div></td>
+                    <td></td>
+                    <td><div class="adv-to-do-this-text">To do this in the search box.</div></td>
+                </tr>
+
+                <tr>
+                    <td><label for="all-these">all these words:</label></td>
+                    <td><input class="adv-input-text" id="all-these" type="text" name='as_q'/></td>
+                    <td><span class="font-1">Type the important words: </span><span class="font-1a">tri-colour rat terrier</span></td>
+                </tr>
+
+                <tr>
+                    <td><label for="this-exact">this exact word or phrase:</label></td>
+                    <td><input class="adv-input-text" id="this-exact" type="text" name='as_epq'/></td>
+                    <td><span class="font-1">Put exact words in quotes: </span><span class="font-1a">"rat terrier"</span></td>
+                </tr>
+
+                <tr>
+                    <td><label for="any-of">any of these words:</label></td>
+                    <td><input class="adv-input-text" id="any-of" type="text" name='as_oq'/></td>
+                    <td><span class="font-1">Type OR between all the words you want: </span><span class="font-1a">miniature OR standard</span></td>
+                </tr>
+
+                <tr>
+                    <td><label for="none-of">none of these words:</label></td>
+                    <td><input class="adv-input-text" id="none-of" type="text" name='as_eq'/></td>
+                    <td><div class="mimic-pre"><span class="font-1">Put a minus sign just before words that you don't want: </span>
+<span class="font-1a">-rodent, -"Jack Russell"</span></div></td>
+                </tr>
+        
+            </table>
+        </div>
+
+        <div>
+            <input class="adv-submit-button" type="submit" value="Advanced Search">
+        </div>
+
+    </form>
+    
+</body>
+</html>
