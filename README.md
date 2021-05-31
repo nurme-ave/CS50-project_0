@@ -6,4 +6,4 @@ This assignment also required a screencast where I demonstrated my project's fun
 
 Details about the assignment -> https://cs50.harvard.edu/web/2020/projects/0/search/
 
-
+The project has been deployed via GitHub Pages -> https://nurme-ave.github.io/CS50-Project-0/
